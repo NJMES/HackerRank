@@ -55,7 +55,7 @@ import sys
 # Complete the solve function below.
 def solve(meal_cost, tip_percent, tax_percent):
     tip_percent = tip_percent * (meal_cost/100)
-    tax_percent =(tax_percent/100) * tip_percent
+    tax_percent = (tax_percent/100) * tip_percent
     total = meal_cost + tip_percent + tax_percent
     return math.ceil(total)
 

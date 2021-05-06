@@ -91,7 +91,7 @@ for i in range(0, t):      # run 0 to current age
 #solution:
 
 class Person:
-    def __init__(self,initialAge):  
+    def __init__(self, initialAge):  
         '''what is __init__ ~ It is called as a constructor in object oriented terminology. 
         This method is called when an object is created from a class and it allows the class to initialize the 
         attributes of the class. 'self' The self parameter is a reference to the current instance of the class, 

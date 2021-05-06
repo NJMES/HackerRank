@@ -81,10 +81,12 @@ tin = int(input('No. of Strings', ))
 for t in range(tin):
     s = str(input('Enter String:', ))        #string input
     se,so ='',''            #string even & string odd = blank
+    
     for i in range(len(s)): #for i in range(lenght of string) i will run throught 0,1,2,3...stop before Range(length of s)
         if i % 2 == 0:      # if i is even 
             se = se+s[i]    # se + position i in the string s
 
         elif i % 2 != 0:    # if i is odd 
             so = so+s[i]    # so + position i in the string s
+
     print(se+' '+so)
